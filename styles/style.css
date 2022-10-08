@@ -1,26 +1,20 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   background-color:  #f2f2f2;
   display: flex;
   align-items: center;
   margin: 0;
   padding: 0;
+  position: relative;
 }
-
 .logo {
   background-size: cover;
   width: 228px;
@@ -33,7 +27,6 @@
   left: 64px;
   z-index: 2;
 }
-
 .logo_place_footer {
   background-image: url("../images/logo_place_footer.svg");
   top: 0;
@@ -56,6 +49,8 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
+  margin: 0;
+  padding: 0;
 }
 .header__link {
   color:#2f80ed;
@@ -77,7 +72,6 @@
   top: 64px;
   right: 0;
 }
-
 .description {
   padding: 100px 0;
   display: flex;
@@ -112,12 +106,11 @@
   font-weight: normal;
   padding-bottom: 30px;
 }
-.accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
 }
-
 .digits {
   display: flex;
   flex-direction: column;
@@ -148,13 +141,19 @@
 .section-subtitle_theme_dark {
   color: white;
 }
-
 .table {
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
   justify-content: space-between;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.table_theme_dark {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .table__cell {
   width: 250px;
@@ -171,7 +170,8 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
 .table__text {
   line-height: 1.15;
@@ -183,11 +183,10 @@
 .table__text_theme_dark {
   line-height: 1.2;
 }
-
 .feynman {
   background-color: #f2f2f2;
   margin: 0;
-  height: 890px;
+  min-height: 890px;
   position: relative;
   padding-bottom: 90px;
   z-index: -2;
@@ -231,9 +230,8 @@
   left: 0;
   z-index: -1;
 }
-
 .kaufman {
-  background-color: #000000;
+  background-color: #1f1f1f;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,9 +250,8 @@
   right: -210px;
   top: 0;
 }
-
 .footer {
-  background-color: #000000;
+  background-color: #1f1f1f;
   padding: 60px 0 40px;
 }
 .footer__columns {
@@ -264,34 +261,28 @@
   display: flex;
   justify-content: space-between;
   color: white;
-  min-height: 300px;
+  min-height: 250px;
 }
-
 .footer__column{
   flex-direction: column;
-  position: relative;
   width: 130px;
 }
-
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  justify-content: space-between;
 }
-
 .footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   margin-top: 18px 0;
-  position: absolute;
-  bottom: 0;
 }
-
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
 }
-
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
@@ -299,7 +290,6 @@
   margin: 0 0 20px;
   text-align: left;
 }
-
 .footer__column-links {
   line-height: 30px;
   font-size: 18px;
