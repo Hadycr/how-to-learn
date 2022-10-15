@@ -4,17 +4,7 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color:  #f2f2f2;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
+
 .logo {
   background-size: cover;
   width: 228px;
@@ -32,14 +22,7 @@
   top: 0;
   left: 0;
 }
-.header__title {
-  width: 730px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-  margin-left: 64px;
-  z-index: 2;
-}
+
 .header__subtitle {
   position: absolute;
   left: 64px;
@@ -52,26 +35,9 @@
   margin: 0;
   padding: 0;
 }
-.header__link {
-  color:#2f80ed;
-  text-decoration: none;
-}
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-}
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  background-color:#2f80ed;
-  position: absolute;
-  top: 64px;
-  right: 0;
-}
+
+
+
 .description {
   padding: 100px 0;
   display: flex;
