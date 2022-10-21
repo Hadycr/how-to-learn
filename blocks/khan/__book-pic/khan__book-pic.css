@@ -1,0 +1,8 @@
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+.khan__book-pic {
+  min-width: 620px;
+  min-height: 608px;
+  object-fit: cover;
+  object-position: left;
+  margin-right: 48px;
+}

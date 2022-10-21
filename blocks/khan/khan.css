@@ -1,0 +1,8 @@
+@import url(../blocks/khan/khan.css);
+.khan {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}

@@ -7,6 +7,3 @@
         transform: rotate(360deg);
     }
 }
-.header__square-pic {
-    animation: mix_animation 20s linear infinite;
-  }

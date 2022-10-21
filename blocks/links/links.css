@@ -1,13 +1,9 @@
 @import url(../blocks/links/links.css);
 a {
     opacity: 1;
-    transition: opacity 1s; 
+    transition: opacity 1s;
 }
 a:hover {
     opacity: 0.5;
-     
+
 }
-.header__link {
-    color:#2f80ed;
-    text-decoration: none;
-  }

@@ -1,0 +1,8 @@
+@import url(../blocks/resources/resources.css);
+.resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 100px 0 217px;
+}
