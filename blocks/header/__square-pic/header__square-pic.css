@@ -1,11 +1,10 @@
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 .header__square-pic {
-    width: 568px;
-    height: 568px;
-    background-color:#2f80ed;
-    position: absolute;
-    top: 64px;
-    right: 0;
-    animation: mix_animation 20s linear infinite;
-
-  }
+  width: 568px;
+  height: 568px;
+  background-color:#2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  animation: mix_animation 20s linear infinite;
+}
