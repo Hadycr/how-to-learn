@@ -1,8 +1,8 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
-.footer__column-heading {
+.footer__column-heading.css {
   line-height: 30px;
+  text-align: left;
   font-size: 18px;
   font-weight: 600;
   margin: 0 0 20px;
-  text-align: left;
 }
