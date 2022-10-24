@@ -1,4 +1,3 @@
-@import url(../blocks/rotation/rotation.css);
 @keyframes mix_animation {
     from {
         transform: rotate(0deg);

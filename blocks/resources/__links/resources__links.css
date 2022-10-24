@@ -1,4 +1,3 @@
-@import url(../blocks/resources/__links/resources__links.css);
 .resources__links {
   display: flex;
   flex-direction: row;
